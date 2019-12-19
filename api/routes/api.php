@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 
-Route::get("tasks", "TasksController@index");
-Route::get("tasks/{task}", "TasksController@show");
-Route::post("tasks", "TasksController@store");
-Route::patch("tasks/{task}", "TasksController@update");
+Route::get("imoveis", "ImovelController@index");
+Route::get("imoveis/{imovel}", "ImovelController@show");
+Route::post("imoveis", "ImovelController@store");
+Route::patch("imoveis/{imovel}", "ImovelController@update");
